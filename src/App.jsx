@@ -2,7 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
-import Layout from './layouts/Layout';
+import Layout from './layouts/Layouts';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
