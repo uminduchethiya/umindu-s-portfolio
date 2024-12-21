@@ -31,7 +31,7 @@ export default function About() {
                 <HeroSection
                     title="About Our Company"
                     subtitle="Our Vision and Mission"
-                    paragraph="We aim to deliver exceptional customer service and innovative solutions for businesses globally."
+                    paragraph="Our goal is to provide exceptional customer service and deliver innovative solutions to businesses worldwide."
                     backgroundImage={Herocover}
                     image={Heroimage}
                 />
@@ -52,12 +52,8 @@ export default function About() {
                             <span className="text-text-dark">Mission</span>
                         </h2>
                         <p className="text-gray-600 text-lg font-semibold">
-                            Sterling BPO has been in the IT/BPO industry since 2014 providing services for the intelligent
-                            and smooth progress of companies around the world. Our years of experience have won the hearts
-                            of many clients with successful, cost-effective, innovative outsourcing solutions.
-                            With a Mission “to provide the most innovative, reliable, and cost-effective Business
-                            Process Outsourcing solutions” our service offerings come with domain expertise,
-                            stringent quality standards, and on-time delivery.
+                            ZyGen Labs, established in 2023, is dedicated to driving innovation and delivering cutting-edge IT solutions that accelerate business growth. We focus on providing tailored, efficient, and reliable services to meet the unique needs of companies worldwide. With a commitment to excellence, we leverage our expertise to deliver high-quality, cost-effective solutions,
+                            ensuring customer satisfaction and success in today’s fast-evolving digital landscape.
                         </p>
                     </div>
                     <div className="flex-shrink-0">
@@ -88,10 +84,10 @@ export default function About() {
             >
                 <StatsSection
                     stats={[
-                        { value: "10+", label: "Years of Experience in the IT Industry" },
-                        { value: "50+", label: "Satisfied Clients We Have Served" },
-                        { value: "80+", label: "Recognitions Over Two Decades" },
-                        { value: "90+", label: "Projects We Have Done" },
+                        { value: "1+", label: "Years of Experience in the IT Industry" },
+                        { value: "10+", label: "Satisfied Clients We Have Served" },
+                        { value: "10+", label: "Recognitions Over Years" },
+                        { value: "10+", label: "Projects We Have Done" },
                     ]}
                 />
             </motion.div>

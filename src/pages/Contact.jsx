@@ -43,7 +43,7 @@ export default function Contact() {
         <HeroSection
           title="Get in Touch"
           subtitle="Contact Us Today"
-          paragraph="Have questions? Reach out to our team to learn how we can support your business."
+          paragraph="Got questions? Contact our team to discover how we can help support your business."
           backgroundImage={Herocover}
           image={Heroimage}
         />
@@ -59,9 +59,8 @@ export default function Contact() {
                 Get in touch with us
               </h2>
               <p className="text-assest-2 ">
-                We are a BPO Company based in Sri Lanka. We provide business
-                process outsourcing services to Australian companies and
-                overseas.
+                We are an IT solutions company based in Sri Lanka,
+                offering innovative services to support businesses in Sri Lanka and internationally.
               </p>
 
               <div className="mb-6 mt-10">
@@ -98,7 +97,7 @@ export default function Contact() {
                           isAddressHovered ? "text-button-hover" : ""
                         } transition-colors`}
                       >
-                        12A/005, Church Road, Liyanagemulla
+                        Galle, Sri Lanka
                       </span>
                     </p>
                   </div>
@@ -121,7 +120,7 @@ export default function Contact() {
                           isCallHovered ? "text-button-hover" : ""
                         } transition-colors`}
                       >
-                        +94 112 258 528
+                        +94 76 205 0235
                       </span>
                     </p>
                   </div>
@@ -147,7 +146,7 @@ export default function Contact() {
                           isEmailHovered ? "text-button-hover" : ""
                         } transition-colors`}
                       >
-                        info@example.com
+                        info@zygenlabs.com
                       </span>
                     </p>
                   </div>
@@ -217,8 +216,8 @@ export default function Contact() {
                 Contact Form
               </h2>
               <p className="text-assest-2 mb-8 ">
-                We’re here to assist you with any inquiries or support you may
-                need. Reach out to us via email or call us.
+                We’re here to help with any inquiries or support you require. Contact us via email or
+                phone for assistance.
               </p>
               <form className="leading-relaxed">
                 <div className="mb-4 leading-relaxed">

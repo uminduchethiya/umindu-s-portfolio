@@ -6,22 +6,22 @@ const WhyChooseUsSection = () => {
         {
             title: "We Are Customer-Centric",
             description:
-                "Being customer-centric we prioritize the needs, satisfaction, and experience of our clients above all else. We tailor our solutions to align with their unique goals, providing personalized support and attentive service throughout every stage of their journey with us. Our commitment to being customer-centric ensures that their success remains at the forefront of everything we do.",
+                "At ZyGen Labs, we are deeply committed to being customer-centric, placing the needs, satisfaction, and experience of our clients at the heart of everything we do. We customize our solutions to meet their unique goals, offering personalized support and dedicated service throughout every phase of their journey with us. Our focus on customer success ensures we consistently deliver results that drive their business forward.",
         },
         {
             title: "We Are Pioneers",
             description:
-                "We embrace innovation to create groundbreaking solutions and help businesses achieve their potential. Our team thrives on creativity and adaptability to solve challenges with ingenuity.",
+                "At ZyGen Labs, we embrace innovation to develop groundbreaking solutions that empower businesses to reach their full potential. Our team fosters creativity and adaptability, tackling challenges with innovative approaches to drive success.",
         },
         {
             title: "We Are Efficiency Experts",
             description:
-                "We optimize business processes to improve productivity and deliver measurable results. Efficiency is at the core of our operations, ensuring our solutions are both effective and sustainable.",
+                "We streamline business processes to enhance productivity and deliver tangible results. Efficiency is fundamental to our approach, ensuring that our solutions are both impactful and sustainable.",
         },
         {
             title: "We Are Collaboration",
             description:
-                "We foster partnerships that enhance mutual growth and success. Through collaboration, we create shared value and strengthen relationships.",
+                "We build strategic partnerships that drive mutual growth and success. Through collaboration, we create shared value and strengthen enduring relationships.",
         },
     ];
 
@@ -35,13 +35,10 @@ const WhyChooseUsSection = () => {
                             Why <span className="text-blue-600">Choose Us</span>
                         </h2>
                         <p className="text-gray-600 text-lg font-semibold">
-                            Choose “Sterling software solution” for your software solution
-                            needs and experience the difference that over a decade of industry
-                            expertise can make. Our track record speaks volumes, with a proven
-                            history of delivering intelligent, cost-effective, and innovative
-                            outsourcing solutions that propel companies to success worldwide.
-                            Trust in our experience and dedication to elevate your business to
-                            new heights.
+                            Choose ZyGen Labs for your software solution needs and experience the impact of our industry
+                            expertise since 2023. With a proven track record of delivering intelligent, cost-effective,
+                            and innovative solutions, we help businesses achieve success in the global marketplace.
+                            Trust in our commitment and expertise to take your business to the next level.
                         </p>
                     </div>
 

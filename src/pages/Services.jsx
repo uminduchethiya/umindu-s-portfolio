@@ -41,16 +41,16 @@ export default function Services() {
             <div>
                 <HeroSection
                     title="Our Services"
-                    subtitle="Tailored Solutions for Your Business"
-                    paragraph="We offer a wide range of BPO services to support businesses in Australia and globally."
+                    subtitle="Exclusive Solutions for Your Business"
+                    paragraph="We offer a wide range of IT services to support businesses in Sri Lanka and globally."
                     backgroundImage={Herocover}
                     image={Heroimage}
                 />
                 <div className="p-8">
                     <h3 className="text-5xl font-bold font-montserrat text-center">What We Offer</h3>
                     <p className="mt-4 text-xl font-montserrat text-center">
-                        From customer support to IT solutions, our services are designed to
-                        optimize your business operations.
+                        From IT solutions to business optimization, our services are designed to enhance your
+                        operations and drive success.
                     </p>
                 </div>
             </div>
@@ -66,7 +66,8 @@ export default function Services() {
                         <motion.div variants={cardVariants} data-aos="fade-up">
                             <ServiceCard
                                 title="Web Development"
-                                description="Elevate your online presence with our comprehensive web development services. We specialize in creating dynamic, responsive websites for lasting digital impact."
+                                description="Enhance your online presence with our expert web development services.
+                                 We specialize in building dynamic, responsive websites that deliver long-term digital impact."
                                 points={[
                                     "Front-End Development",
                                     "Back-End Development",
@@ -83,7 +84,7 @@ export default function Services() {
                         <motion.div variants={cardVariants} data-aos="fade-up">
                             <ServiceCard
                                 title="Software Development"
-                                description="Elevate your business with our comprehensive software development services. We design, build, and optimize solutions for seamless digital transformation and success."
+                                description="Transform your business with our comprehensive software development services. We design, develop, and optimize solutions for smooth digital transformation and sustained success."
                                 points={[
                                     "Coding and Implementation",
                                     "Collaboration and Communication",
@@ -100,7 +101,7 @@ export default function Services() {
                         <motion.div variants={cardVariants} data-aos="fade-up">
                             <ServiceCard
                                 title="Mobile Application Development"
-                                description="Elevate your brand with our mobile app development services. We craft intuitive, feature-rich apps for optimal user experiences and business success."
+                                description="Enhance your brand with our mobile app development services. We create intuitive, feature-rich apps that deliver exceptional user experiences and drive business success."
                                 points={[
                                     "Define Clear Objectives",
                                     "Identify Target Audience",
@@ -117,7 +118,7 @@ export default function Services() {
                         <motion.div variants={cardVariants} data-aos="fade-up">
                             <ServiceCard
                                 title="UI/UX Design"
-                                description="Elevate user experiences with our UI/UX design services. We craft visually stunning interfaces, ensuring seamless interactions for optimal user engagement."
+                                description="Enhance user experiences with our UI/UX design services. We create visually captivating interfaces that ensure seamless interactions and maximize user engagement."
                                 points={[
                                     "Responsive Design",
                                     "Consistent Branding",
@@ -134,7 +135,7 @@ export default function Services() {
                         <motion.div variants={cardVariants} data-aos="fade-up">
                             <ServiceCard
                                 title="Digital Marketing"
-                                description="At Sterling Software Solution, we specialize in digital marketing to boost your online presence. Achieve your marketing goals with our innovative and effective solutions."
+                                description="At ZyGen Labs, we specialize in digital marketing to enhance your online presence. Achieve your marketing objectives with our innovative and results-driven solutions."
                                 points={[
                                     "SEO strategy",
                                     "Content creation",
@@ -151,7 +152,7 @@ export default function Services() {
                         <motion.div variants={cardVariants} data-aos="fade-up">
                             <ServiceCard
                                 title="Cloud Hosting"
-                                description="At Sterling Software Solution, our cloud hosting services ensure your business applications are fast, secure, and always available. We provide scalable solutions tailored to your needs."
+                                description="At ZyGen Labs, our cloud hosting services guarantee fast, secure, and reliable access to your business applications. We offer scalable solutions tailored to meet your specific needs."
                                 points={[
                                     "Infrastructure setup",
                                     "Data migration",
@@ -177,10 +178,10 @@ export default function Services() {
                     >
                         <StatsSection
                             stats={[
-                                { value: "10+", label: "Years of Experience in the IT Industry" },
-                                { value: "50+", label: "Satisfied Clients We Have Served" },
-                                { value: "80+", label: "Recognitions Over Two Decades" },
-                                { value: "90+", label: "Projects We Have Done" },
+                                { value: "1+", label: "Years of Experience in the IT Industry" },
+                                { value: "10+", label: "Satisfied Clients We Have Served" },
+                                { value: "10+", label: "Recognitions Over Years" },
+                                { value: "10+", label: "Projects We Have Done" },
                             ]}
                         />
                     </motion.div>
