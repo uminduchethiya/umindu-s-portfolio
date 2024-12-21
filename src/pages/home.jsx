@@ -75,7 +75,7 @@ const Home = () => {
         <div className="container mx-auto p-4 flex lg:flex-row flex-col relative z-20 md:mt-10">
           <div className="lg:w-1/2 w-full flex flex-col gap-8 md:py-32 py-10 justify-center md:text-left text-center md:items-start items-center">
             <motion.h1 className="text-7xl font-bold" variants={fadeInLeft} initial="hidden" animate="visible">
-              Pinnacle of Software Brilliance
+              Leading Tomorrow’s Software Innovation
               {/* <br /> <p
                 style={{
                   paddingTop: '10px',
@@ -92,8 +92,8 @@ const Home = () => {
               </p> */}
             </motion.h1>
             <p>
-              Empowering businesses with cutting-edge software for seamless integration and sustained
-              growth in the dynamic digital landscape. Your success, our commitment.
+              Empowering businesses with advanced software solutions for seamless integration and sustainable growth in
+              the ever-evolving digital landscape. Your success is our priority.
             </p>
             <button className="bg-button hover:bg-button-hover text-assest-1 py-2 px-4 rounded transition duration-300 w-fit md:self-start self-center">
               LET'S TALK
@@ -156,9 +156,8 @@ const Home = () => {
           <div className="mt-5 w-full md:flex justify-between">
             <div className="md:w-3/4 w-full text-lg">
               <p>
-                Our services encompass cutting-edge solutions, tailored to meet your unique needs.
-                From software development to design, we drive innovation, efficiency, and success
-                for your business.
+                Our services offer innovative solutions, customized to fit your specific needs. From software development
+                to design, we foster innovation, efficiency, and business success.
               </p>
             </div>
             <div className="md:w-1/4 w-full flex md:justify-end mt-5 md:mt-0">
@@ -185,12 +184,11 @@ const Home = () => {
         <div className="container mx-auto p-5">
           <div className="flex flex-col items-center gap-10 justify-center mb-10">
             <motion.h1 className="text-5xl font-bold md:text-center" variants={fadeInLeft} initial="hidden" animate="visible">
-              Explore Our <samp className="text-text-dark">Core Competencies</samp>
+              Discover Our <samp className="text-text-dark">Core Expertise</samp>
             </motion.h1>
             <motion.p className="text-lg md:w-2/3 md:text-center" variants={fadeInRight} initial="hidden" animate="visible">
-              Our services encompass cutting-edge solutions, tailored to meet your unique needs.
-              From software development to design, we drive innovation, efficiency, and success for
-              your business.
+              Our services offer innovative, customized solutions designed to meet your specific needs. From software
+              development to design, we drive innovation, enhance efficiency, and ensure business success.
             </motion.p>
           </div>
           <HomeTab />
@@ -245,15 +243,15 @@ const Home = () => {
             </div>
             <div className="space-y-5 text-lg">
               <p>
-                We are an IT/BPO Company based in Australia and Sri Lanka. We offer innovative
-                software solutions to improve and enhance operations for businesses of all sizes.
+                We are an IT company based in Sri Lanka, specializing in delivering innovative software solutions that
+                drive operational efficiency and business growth for organizations of all sizes.
               </p>
               <p>
-                Our success is driven by our team of experts who are dedicated to delivering top-notch
-                solutions, from conceptualization to execution, enabling businesses to thrive.
+                Our success stems from a team of experts committed to delivering exceptional solutions, from concept to
+                execution, empowering businesses to succeed and grow.
               </p>
             </div>
-            <div className="space-y-4 mb-10">
+            <div className="space-y-4 mb-10 mt-3">
               {/* Progress Bars */}
               <div>
                 <p className="mb-2 text-sm">Community Engagement</p>
@@ -294,8 +292,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <p className="text-lg mb-10">We are active in the Australian market, providing 365 days of committed
-              Software Solutions Service.</p>
+            <p className="text-lg mb-10">We are actively engaged in the Sri Lankan market, providing dedicated software solutions services 365 days a year.</p>
             <button
               className="bg-button hover:bg-button-hover text-assest-1 py-2 px-4 rounded transition duration-300 w-fit">
               LET'S TALK
