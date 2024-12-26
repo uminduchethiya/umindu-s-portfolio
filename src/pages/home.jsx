@@ -161,13 +161,16 @@ const Home = () => {
               </p>
             </div>
             <div className="md:w-1/4 w-full flex md:justify-end mt-5 md:mt-0">
-              <button className="bg-button hover:bg-button-hover text-assest-1 py-2 px-4 rounded transition duration-300 w-fit md:self-start self-center text-lg whitespace-nowrap">
-                view all services
-              </button>
+              <a href="/services">
+                <button
+                    className="bg-button hover:bg-button-hover text-assest-1 py-2 px-4 rounded transition duration-300 w-fit md:self-start self-center text-lg whitespace-nowrap">
+                  View All Services
+                </button>
+              </a>
             </div>
           </div>
           <div className="py-10">
-            <OurService />
+            <OurService/>
           </div>
         </div>
       </motion.div>
@@ -175,10 +178,10 @@ const Home = () => {
 
       {/* Tab Section Start */}
       <motion.div
-        className="bg-bg-light"
-        variants={fadeInUp}
-        initial="hidden"
-        animate="visible"
+          className="bg-bg-light"
+          variants={fadeInUp}
+          initial="hidden"
+          animate="visible"
         exit="exit"
       >
         <div className="container mx-auto p-5">
