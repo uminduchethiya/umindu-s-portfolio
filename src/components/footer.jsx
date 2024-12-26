@@ -5,6 +5,7 @@ import {
   FaLinkedinIn,
   FaTwitter,
 } from "react-icons/fa";
+import Logo from "../assets/img/logo.png";
 
 const Footer = () => {
   const [progress, setProgress] = useState(0);
@@ -46,7 +47,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between mt-6">
           {/* Logo and Title */}
           <div className="flex items-center space-x-2">
-            <img src="logo.png" alt="Logo" className="h-10" />
+            <img src={Logo} alt="Logo" className="h-10" />
             <div className="text-center md:text-left">
               {/* <p className="font-semibold text-teal-700">Sterling</p>
                   <p className="text-sm text-gray-600">Software Solution</p> */}
