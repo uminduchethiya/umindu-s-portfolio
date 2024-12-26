@@ -110,9 +110,6 @@ const Navbar = () => {
           >
             Contact Us
           </NavLink>
-          <button className="bg-button hover:bg-button-hover text-assest-1 py-2 px-4 rounded transition duration-300">
-            Button
-          </button>
         </div>
 
 

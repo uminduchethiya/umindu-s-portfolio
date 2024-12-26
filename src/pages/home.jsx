@@ -95,14 +95,17 @@ const Home = () => {
               Empowering businesses with advanced software solutions for seamless integration and sustainable growth in
               the ever-evolving digital landscape. Your success is our priority.
             </p>
-            <button className="bg-button hover:bg-button-hover text-assest-1 py-2 px-4 rounded transition duration-300 w-fit md:self-start self-center">
-              LET'S TALK
-            </button>
+            <a href="/contact">
+              <button
+                  className="bg-button hover:bg-button-hover text-assest-1 py-2 px-4 rounded transition duration-300 w-fit md:self-start self-center">
+                LET'S TALK
+              </button>
+            </a>
           </div>
 
           <div
-            className="lg:w-1/2 w-full md:block hidden h-[600px] bg-contain bg-no-repeat bg-center my-auto relative top-0"
-            style={{ backgroundImage: `url(${homeGirl})` }}
+              className="lg:w-1/2 w-full md:block hidden h-[600px] bg-contain bg-no-repeat bg-center my-auto relative top-0"
+              style={{backgroundImage: `url(${homeGirl})` }}
           >
             {/* Background blur overlay */}
             <div className="absolute inset-0 bg-gray-500 opacity-50 blur-3xl -z-10 rounded-full"></div>
@@ -161,13 +164,16 @@ const Home = () => {
               </p>
             </div>
             <div className="md:w-1/4 w-full flex md:justify-end mt-5 md:mt-0">
-              <button className="bg-button hover:bg-button-hover text-assest-1 py-2 px-4 rounded transition duration-300 w-fit md:self-start self-center text-lg whitespace-nowrap">
-                view all services
-              </button>
+              <a href="/services">
+                <button
+                    className="bg-button hover:bg-button-hover text-assest-1 py-2 px-4 rounded transition duration-300 w-fit md:self-start self-center text-lg whitespace-nowrap">
+                  VIEW ALL SERVICES
+                </button>
+              </a>
             </div>
           </div>
           <div className="py-10">
-            <OurService />
+            <OurService/>
           </div>
         </div>
       </motion.div>
@@ -175,10 +181,10 @@ const Home = () => {
 
       {/* Tab Section Start */}
       <motion.div
-        className="bg-bg-light"
-        variants={fadeInUp}
-        initial="hidden"
-        animate="visible"
+          className="bg-bg-light"
+          variants={fadeInUp}
+          initial="hidden"
+          animate="visible"
         exit="exit"
       >
         <div className="container mx-auto p-5">
@@ -293,10 +299,12 @@ const Home = () => {
               </div>
             </div>
             <p className="text-lg mb-10">We are actively engaged in the Sri Lankan market, providing dedicated software solutions services 365 days a year.</p>
-            <button
-              className="bg-button hover:bg-button-hover text-assest-1 py-2 px-4 rounded transition duration-300 w-fit">
-              LET'S TALK
-            </button>
+            <a href="/contact">
+              <button
+                  className="bg-button hover:bg-button-hover text-assest-1 py-2 px-4 rounded transition duration-300 w-fit">
+                LET'S TALK
+              </button>
+            </a>
           </div>
         </div>
       </div>
