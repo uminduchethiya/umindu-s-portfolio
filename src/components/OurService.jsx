@@ -6,32 +6,32 @@ export default function OurService() {
         {
             imageUrl: "https://img.icons8.com/?size=100&id=DzQFf09l3D1p&format=png&color=000000",
             title: 'Web Development',
-            description: 'With our web development service, your website becomes more than just an online presence—it becomes a powerful tool for business growth.',
+            description: 'With our web development service, your website evolves from a simple online presence to a dynamic asset that drives business growth and success.',
         },
         {
             imageUrl: "https://img.icons8.com/?size=100&id=9yWcmPXU9Yqy&format=png&color=000000",
             title: 'Software Development',
-            description: 'Our software development service empowers your vision into reality. We meticulously craft tailored digital solutions, from conceptualization to deployment.',
+            description: 'Our software development service transforms your vision into reality by delivering precision-engineered, tailored digital solutions, from concept through to successful deployment.',
         },
         {
             imageUrl: "https://img.icons8.com/?size=100&id=K802902EP1kb&format=png&color=000000",
             title: 'Mobile App Development',
-            description: 'Our mobile app development service goes beyond just coding; we collaborate closely with you to understand your objectives and user preferences.',
+            description: 'Our mobile app development service goes beyond coding; we work closely with you to understand your goals and user needs, ensuring a seamless and impactful solution.',
         },
         {
             imageUrl: "https://img.icons8.com/?size=100&id=lBuqhXfGV2RT&format=png&color=000000",
             title: 'UI/UX Design',
-            description: 'Our UI/UX design services are dedicated to creating visually stunning and highly intuitive digital experiences.',
+            description: 'Our UI/UX design services focus on crafting visually compelling and highly intuitive digital experiences that engage users and drive results.',
         },
         {
             imageUrl: "https://img.icons8.com/?size=100&id=o9r8HjgL7f74&format=png&color=000000",
             title: 'Digital Marketing',
-            description: 'Our digital marketing service is your gateway to reaching and engaging your target audience across various online channels.',
+            description: 'Our digital marketing service provides a strategic approach to reaching and engaging your target audience across multiple online platforms.',
         },
         {
             imageUrl: "https://img.icons8.com/?size=100&id=o9r8HjgL7f74&format=png&color=000000",
             title: 'Cloud Hosting',
-            description: 'Experience the reliability and scalability of our cloud hosting service, designed to support your business growth without compromising on performance.',
+            description: 'Experience the robustness and scalability of our cloud hosting service, designed to support your business growth while ensuring consistent performance and reliability.',
         },
     ];
 

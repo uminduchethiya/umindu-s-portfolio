@@ -6,14 +6,14 @@ const ContactSection = () => {
                 <div className="flex-1">
                     <h2 className="text-4xl font-bold mb-4 text-left">
                         Initiating Your <span className="text-blue-600">Project</span>{" "}
-                        Conversation
+                        Consultation
                     </h2>
                     <p className="text-gray-600 mb-8 font-semibold text-xl text-justify font-montserrat">
-                        At Sterling Software Solution, we’re ready to turn your vision into reality. Let’s embark on a
-                        journey of possibilities by delving into the details of your project. Connect with us to explore
-                        the innovative solutions and seamless execution that define our commitment to excellence.
-                        Join hands with a team that thrives on transforming ideas into impactful digital solutions.
-                        Your vision, our expertise – let’s create something extraordinary together.
+                        At ZyGen Labs, we are ready to bring your vision to life. Let’s collaborate to explore the
+                        potential of your project and uncover innovative solutions that ensure seamless execution.
+                        Connect with us to experience our commitment to excellence in delivering impactful digital
+                        solutions. Partner with a team that excels at transforming ideas into reality. Your vision,
+                        our expertise – together, we will create something exceptional.
                     </p>
                     <div className="flex flex-col md:flex-row justify-start items-start space-y-4 md:space-y-0 md:space-x-8">
                         <div className="flex items-center space-x-4">
@@ -24,7 +24,7 @@ const ContactSection = () => {
                             />
                             <div>
                                 <p className="font-semibold text-2xl">Call Us</p>
-                                <p className="font-semibold text-xl pt-1"><span className="font-semibold text-xl text-blue-600">Sri Lanka</span>:762050235</p>
+                                <p className="font-semibold text-xl pt-1"><span className="font-semibold text-xl text-blue-600">Sri Lanka</span>:+94 76 205 0235</p>
                             </div>
                         </div>
                         <div className="flex items-center space-x-4">
@@ -35,7 +35,10 @@ const ContactSection = () => {
                             />
                             <div>
                                 <p className="font-semibold text-2xl">Email Us</p>
-                                <p className="text-xl text-blue-600 font-semibold pt-1">info@sterlingbpo.com.au</p>
+                                <a href="mailto:info@zygenlabs.com"
+                                   className="text-xl text-blue-600 font-semibold pt-1">
+                                    info@zygenlabs.com
+                                </a>
                             </div>
                         </div>
                     </div>
