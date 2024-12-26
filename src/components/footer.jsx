@@ -1,11 +1,8 @@
 import { useState, useEffect } from "react";
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } 
+from "react-icons/fa";
 import Logo from "../assets/img/logo.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const [progress, setProgress] = useState(0);
@@ -56,24 +53,18 @@ const Footer = () => {
 
           {/* Navigation Links */}
           <nav className="flex flex-col items-center md:flex-row justify-center mt-4 md:mt-0 space-y-4 md:space-y-0 md:space-x-6 text-sm text-assest-2 font-bold">
-            <a href="/" className="hover:text-text-dark">
+            <Link to="/" className="hover:text-text-dark">
               HOME
-            </a>
-            <a href="/about" className="hover:text-text-dark">
+            </Link>
+            <Link to="/about" className="hover:text-text-dark">
               ABOUT US
-            </a>
-            <a href="/services" className="hover:text-text-dark">
+            </Link>
+            <Link to="/services" className="hover:text-text-dark">
               SERVICES
-            </a>
-            {/* <a href="/case-studies" className="hover:text-text-dark">
-              CASE STUDIES
-            </a>
-            <a href="/careers" className="hover:text-text-dark">
-              CAREERS
-            </a> */}
-            <a href="/contact" className="hover:text-text-dark">
+            </Link>
+            <Link to="/contact" className="hover:text-text-dark">
               CONTACT US
-            </a>
+            </Link>
           </nav>
 
           {/* Social Media Icons */}
