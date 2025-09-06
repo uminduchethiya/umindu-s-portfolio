@@ -1,4 +1,4 @@
-name: Shipping Build
+name: Deploy React App to GitHub Pages
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
       - main
 
 jobs:
-  FTP-Deploy-Action:
-    name: Deploy to React App
+  deploy:
+    name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
 
     steps:
@@ -36,15 +36,7 @@ jobs:
           CI: false
 
       - name: Build Project
-        run: npm run build  # Use npm run build for production
+        run: npm run build
 
-      - name: Sync folders and files to the server
-        uses: SamKirkland/FTP-Deploy-Action@4.3.3
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/
-
-      - name: Check website status
-        run: curl -I ${{ secrets.url }}
+      - name: Deploy to GitHub Pages
+        run: npm run deploy
