@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } 
 from "react-icons/fa";
-import Logo from "../assets/img/logo.png";
+import Logo from "../assets/img/logo2.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -44,7 +44,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between mt-6">
           {/* Logo and Title */}
           <div className="flex items-center space-x-2">
-            <img src={Logo} alt="Logo" className="h-10" />
+            <img src={Logo} alt="Logo" className="w-36 h-36" />
             <div className="text-center md:text-left">
               {/* <p className="font-semibold text-teal-700">Sterling</p>
                   <p className="text-sm text-gray-600">Software Solution</p> */}
@@ -99,7 +99,7 @@ const Footer = () => {
       {/* Bottom Section: Copyright */}
       <div className="border-t border-gray-300 h-10 bg-button flex items-center justify-center">
         <p className="text-[10px] sm:text-xs md:text-sm  font-bold text-assest-1 text-center">
-          &copy; 2024 Copyrights by ZyGen Labs. All Rights
+          &copy; 2025 Copyrights by uminduchethiya@gmail.com All Rights
           Reserved.
         </p>
       </div>

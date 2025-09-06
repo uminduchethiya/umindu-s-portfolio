@@ -1,27 +1,26 @@
 import { useState } from "react";
-import PartnerCarousel from "./PartnerCarousel.jsx";
 
-const WhyChooseUsSection = () => {
+const WhyChooseMeSection = () => {
     const panels = [
         {
-            title: "We Are Customer-Centric",
+            title: "I Am Passionate About Tech",
             description:
-                "At ZyGen Labs, we are deeply committed to being customer-centric, placing the needs, satisfaction, and experience of our clients at the heart of everything we do. We customize our solutions to meet their unique goals, offering personalized support and dedicated service throughout every phase of their journey with us. Our focus on customer success ensures we consistently deliver results that drive their business forward.",
+                "I love building innovative and efficient solutions that solve real-world problems. Coding isn’t just work for me—it’s something I enjoy learning and improving at every single day.",
         },
         {
-            title: "We Are Pioneers",
+            title: "I Am a Fast Learner",
             description:
-                "At ZyGen Labs, we embrace innovation to develop groundbreaking solutions that empower businesses to reach their full potential. Our team fosters creativity and adaptability, tackling challenges with innovative approaches to drive success.",
+                "I quickly adapt to new technologies and frameworks. Whether it’s React, Laravel, or Spring Boot, I enjoy exploring and applying tools that make projects smarter and stronger.",
         },
         {
-            title: "We Are Efficiency Experts",
+            title: "I Value Efficiency",
             description:
-                "We streamline business processes to enhance productivity and deliver tangible results. Efficiency is fundamental to our approach, ensuring that our solutions are both impactful and sustainable.",
+                "I always focus on writing clean, scalable, and maintainable code. My goal is to deliver solutions that not only work but also save time and resources in the long run.",
         },
         {
-            title: "We Are Collaboration",
+            title: "I Believe in Collaboration",
             description:
-                "We build strategic partnerships that drive mutual growth and success. Through collaboration, we create shared value and strengthen enduring relationships.",
+                "Working with others motivates me to grow. I value communication, teamwork, and knowledge sharing to achieve the best possible results together.",
         },
     ];
 
@@ -31,14 +30,16 @@ const WhyChooseUsSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
                     {/* Left Side - Text Content */}
                     <div>
-                        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-text-light">
-                            Why <span className="text-blue-600">Choose Us</span>
+                        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800">
+                            Why <span className="text-blue-600">Choose Me</span>
                         </h2>
                         <p className="text-gray-600 text-lg font-semibold">
-                            Choose ZyGen Labs for your software solution needs and experience the impact of our industry
-                            expertise since 2023. With a proven track record of delivering intelligent, cost-effective,
-                            and innovative solutions, we help businesses achieve success in the global marketplace.
-                            Trust in our commitment and expertise to take your business to the next level.
+                            Hi, I’m <span className="text-blue-600 font-bold">Umindu</span>, a software engineering
+                            enthusiast passionate about creating modern, intelligent, and cost-effective solutions.
+                            Since starting my journey in software development, I’ve gained hands-on experience in
+                            full-stack development and continue to sharpen my skills.  
+                            If you’re looking for someone who is committed, adaptable, and eager to grow, I’d be glad to
+                            collaborate on meaningful projects.
                         </p>
                     </div>
 
@@ -52,14 +53,6 @@ const WhyChooseUsSection = () => {
                             />
                         ))}
                     </div>
-                </div>
-
-                {/* Partners Section */}
-                <div className="mt-12">
-                    <h2 className="text-3xl md:text-4xl font-bold mb-4 text-text-light">
-                        Our <span className="text-blue-600">Partners</span>
-                    </h2>
-                    <PartnerCarousel></PartnerCarousel>
                 </div>
             </div>
         </section>
@@ -84,13 +77,13 @@ const AccordionPanel = ({ title, description }) => {
                         isExpanded ? "bg-blue-600" : ""
                     }`}
                 >
-          <span
-              className={`text-white text-xs transition-transform ${
-                  isExpanded ? "rotate-45" : ""
-              }`}
-          >
-            +
-          </span>
+                    <span
+                        className={`text-white text-xs transition-transform ${
+                            isExpanded ? "rotate-45" : ""
+                        }`}
+                    >
+                        +
+                    </span>
                 </div>
             </div>
 
@@ -107,4 +100,4 @@ const AccordionPanel = ({ title, description }) => {
     );
 };
 
-export default WhyChooseUsSection;
+export default WhyChooseMeSection;

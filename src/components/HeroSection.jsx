@@ -29,11 +29,7 @@ export default function HeroSection({
         </div>
         {/* Image Section */}
         <div className="w-full md:w-5/12 justify-center md:justify-end items-center hidden md:flex">
-          <img
-            src={image}
-            alt="bgremove"
-            className="w-auto h-auto mt-10  object-contain"
-          />
+        
         </div>
       </div>
     </div>

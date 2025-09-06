@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom"; // Use NavLink for active link styling
 import { FaBars, FaTimes } from "react-icons/fa";
-import Logo from "../assets/img/logo.png";
+import Logo from "../assets/img/logo4.png";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -38,7 +38,7 @@ const Navbar = () => {
     <nav className="bg-bg-dark text-text-light shadow-md  font-roboto fixed z-50 w-full">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
-        <img src={Logo} alt="" className="w-32 h-auto" />
+        {/* <img src={Logo} alt="" className="w-32 " /> */}
 
         {/* Mobile Menu Toggle */}
         <button
