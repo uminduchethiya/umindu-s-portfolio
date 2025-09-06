@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -b gh-pages -r https://x-access-token:${GH_TOKEN}@github.com/uminduchethiya/umindu-s-portfolio.git -f"
+
   },
   "homepage": "https://uminduchethiya.github.io/umindu-s-portfolio",
   "dependencies": {
